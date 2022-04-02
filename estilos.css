@@ -15,6 +15,42 @@ body{
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 540px){
+    img{
+        width: 100%;
+    }
+    
+    html{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 540px){
+    img{
+        width: 100%;
+    }
+    
+    html{
+        font-size: 3vh;
+    }
+}
+@media only screen and (max-width:800px) {
+    /* paratablets: */
+    .contenedor-inicio {
+      width: 100%;
+      padding: 0;
+    }
+    .imagen-inicio {
+      width: 100%;
+      
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .contenedor-inicio, .imagen-inicio, nav {
+      width: 100%;
+      height: auto;
+    }
+  }
 .contenedor{
     font-size: 300%;
     padding: 60px 0;
@@ -54,7 +90,7 @@ margin-top: 0;
 nav{
     text-align: center;
     padding: 30px 50px 0 0;
-    font-size: 400%;
+    font-size: 20vw;
 
 }
 
@@ -305,12 +341,12 @@ html { scroll-behavior: smooth; }
 }
 
 .letra {
-    font-size: 15%;
+    font-size: 10vw;
 }
 
 .titulo-Funkos{
 
-    font-size: 600%;
+    font-size: 60vw;
     font-weight: 500;
     text-align: center ;
     text-decoration: underline;
@@ -319,7 +355,7 @@ html { scroll-behavior: smooth; }
 
 .contenido-Funkos{
 
-font-size: 400%;
+font-size: 60vw;
 font-weight: 500;
 text-align: center;
 color: rgb(0, 0, 0);
@@ -329,7 +365,7 @@ margin-right: 250px;
 }
 
 .tituloh{
-    font-size: 600%;
+    font-size: 60vw;
     color: darkgreen;
     text-align: center;
     font-weight: 300%;
@@ -337,7 +373,7 @@ margin-right: 250px;
 }
 .titulo-Cosplay{
 
-    font-size: 600%;
+    font-size: 60vw;
     font-weight: 500;
     text-align: center ;
     text-decoration: underline;
@@ -346,7 +382,7 @@ margin-right: 250px;
 
 .contenido-Cosplay{
 
-font-size: 400%;
+font-size: 60vw;
 font-weight: 500;
 text-align: center;
 color: rgb(0, 0, 0);
@@ -356,7 +392,7 @@ margin-right: 250px;
 }
 .titulo-LARP{
 
-    font-size: 600%;
+    font-size: 60vw;
     font-weight: 500;
     text-align: center ;
     text-decoration: underline;
@@ -365,7 +401,7 @@ margin-right: 250px;
 
 .contenido-LARP{
 
-font-size: 400%;
+font-size: 60vw;
 font-weight: 500;
 text-align: center;
 color: rgb(0, 0, 0);
