@@ -99,8 +99,18 @@ nav{
 nav ul {
 	list-style:none;
 	overflow:hidden;
+	text-align: center;
+	vertical-align:center
+    padding: 30px 50px 0 0;
+    font-size: 10vw;
+	float: left;
 }
 nav ul li {
+	text-align: center;
+	vertical-align:center
+    padding: 30px 50px 0 0;
+    font-size: 10vw;
+	float: left;
 	float: left;
 	font-size: 10vw;
 }
@@ -383,7 +393,7 @@ margin-right: 250px;
     color: darkgreen;
     text-align: center;
     font-weight: 300%;
-	padding-top:60px;
+	
 
 }
 .titulo-Cosplay{
