@@ -346,7 +346,7 @@ html { scroll-behavior: smooth; }
 
 .titulo-Funkos{
 
-    font-size: 60vw;
+    font-size: 10vw;
     font-weight: 500;
     text-align: center ;
     text-decoration: underline;
@@ -355,7 +355,7 @@ html { scroll-behavior: smooth; }
 
 .contenido-Funkos{
 
-font-size: 60vw;
+font-size: 10vw;
 font-weight: 500;
 text-align: center;
 color: rgb(0, 0, 0);
@@ -365,7 +365,7 @@ margin-right: 250px;
 }
 
 .tituloh{
-    font-size: 60vw;
+    font-size: 10vw;
     color: darkgreen;
     text-align: center;
     font-weight: 300%;
@@ -373,7 +373,7 @@ margin-right: 250px;
 }
 .titulo-Cosplay{
 
-    font-size: 60vw;
+    font-size: 10vw;
     font-weight: 500;
     text-align: center ;
     text-decoration: underline;
@@ -382,7 +382,7 @@ margin-right: 250px;
 
 .contenido-Cosplay{
 
-font-size: 60vw;
+font-size: 10vw;
 font-weight: 500;
 text-align: center;
 color: rgb(0, 0, 0);
@@ -392,7 +392,7 @@ margin-right: 250px;
 }
 .titulo-LARP{
 
-    font-size: 60vw;
+    font-size: 10vw;
     font-weight: 500;
     text-align: center ;
     text-decoration: underline;
@@ -401,7 +401,7 @@ margin-right: 250px;
 
 .contenido-LARP{
 
-font-size: 60vw;
+font-size: 10vw;
 font-weight: 500;
 text-align: center;
 color: rgb(0, 0, 0);
