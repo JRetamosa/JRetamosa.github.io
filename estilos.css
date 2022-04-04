@@ -81,7 +81,8 @@ background: linear-gradient(to bottom, #9a8478, #1e130c) ;
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background-size: cover;
 background-attachment: scroll;
-position: relative;
+position: fixed;
+	z-index: 100;
 background-image: url('pergamino.jpg');
 padding: 0%;
 margin-top: 0;
@@ -92,11 +93,21 @@ nav{
 	vertical-align:center
     padding: 30px 50px 0 0;
     font-size: 10vw;
+	float: left;
 
 }
+nav ul {
+	list-style:none;
+	overflow:hidden;
+}
+nav ul li {
+	float: left;
+	font-size: 10vw;
+}
 
-nav > a {
+nav ul li a {
 
+	display: block;
     color: rgb(251, 248, 252) ;
     font-weight: 200;
     text-decoration: none;
@@ -128,12 +139,14 @@ text-align: center;
 .contenedor h1{
 font-size: 50px;
 color: darkgreen;
+	padding-top:60px;
 }
 
 .contenedor h2{
     font-size: 30px;
     font-weight: 400;
     color: darkgreen;
+	padding-top: 60px;
 }
 
 .contenedor-inicio{
@@ -370,6 +383,7 @@ margin-right: 250px;
     color: darkgreen;
     text-align: center;
     font-weight: 300%;
+	padding-top:60px;
 
 }
 .titulo-Cosplay{
