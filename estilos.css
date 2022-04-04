@@ -69,6 +69,7 @@ body{
 }
 
 /* Header*/
+@media screen and (max-width: 568px){
 header{
     width: 100%;
     height: 100px;
@@ -87,12 +88,13 @@ background-image: url('pergamino.jpg');
 padding: 0%;
 margin-top: 0;
 }
-
+}
+@media screen and (max-width: 568px)  {
 nav{
     text-align: center;
     padding: 30px 50px 0 0;
-    font-size: 400%;
-
+    font-size: 4vw;
+	}
 }
 
 nav > a {
