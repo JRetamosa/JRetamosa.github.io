@@ -81,7 +81,7 @@ background: linear-gradient(to bottom, #9a8478, #1e130c) ;
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background-size: cover;
 background-attachment: scroll;
-position: fixed;
+position: relative;
 	z-index: 100;
 background-image: url('pergamino.jpg');
 padding: 0%;
